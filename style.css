@@ -5,13 +5,10 @@
     --purple: #81007f;
     --skyblue: #76afba;
 }
-
-body{
+main{    
     width: 60%;
     margin: auto;
     font-family: Roboto, sans-serif;
-}
-main{
     background-color: #cccccc;
     height: 100vh;
 }
@@ -37,6 +34,9 @@ h1{
     "content6 content6 content6 content6"
     "content7 content8 content9 content9";
 }
+.grid-container > div{
+    background-color: var(--yellow);
+}
 .grid-container > :nth-child(1){
     grid-area: content1;
     display: flex;
@@ -49,14 +49,12 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--yellow);
 }
 .grid-container > :nth-child(3){
     grid-area: content3;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--yellow);
 }
 .grid-container > :nth-child(4){
     grid-area: content4;
@@ -70,7 +68,6 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--yellow);
 }
 .grid-container > :nth-child(6){
     grid-area: content6;
@@ -84,14 +81,12 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--yellow);
 }
 .grid-container > :nth-child(8){
     grid-area: content8;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--yellow);
 }
 .grid-container > :nth-child(9){
     grid-area: content9;
